@@ -16,34 +16,54 @@
 </head>
 
     <body> 
-        <header>
-            <div class="container p-1">
-                <div class="row d-flex justify-content-between align-items-center">
-                    <div class="col-2">
-                        <img src="/img/mobile-logo.png" alt="">
-                    </div>
-                    <div class="col-8 form-floating px-2">
-                        <input type="search" class="form-control" id="floatingInput" placeholder="Search...">
-                        <label for="floatingInput"> <i class="fa-solid fa-magnifying-glass"></i></label>
-                    </div>
-                    <div class="col-2 d-flex justify-content-start justify-content-lg-end">
-                        <ul class="flex-ul d-flex gap-3">
-                            <li><i class="fa-solid fa-list d-none d-lg-flex"></i></li>
-                            <li><i class="fa-solid fa-circle-question d-none d-lg-flex"></i></li>
-                            <li><i class="fa-solid fa-ellipsis-vertical d-none d-lg-flex"></i></li>
-                            <li><i class="fa-solid fa-bell" style="color: #ff8f00;"></i></li>
-                        </ul>
+        <div class="wrapper">
+            <header>
+                <div class="container p-1">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-2">
+                            <img src="/img/mobile-logo.png" alt="">
+                        </div>
+                        <div class="col-8 form-floating px-0">
+                            <input type="search" class="form-control" id="floatingInput" placeholder="">
+                            <label for="floatingInput"> <i class="fa-solid fa-magnifying-glass"></i> Search...</label>
+                        </div>
+                        <div class="col-2 d-flex justify-content-start justify-content-lg-end">
+                            <ul class="flex-ul d-flex gap-3">
+                                <li><i class="fa-solid fa-list d-none d-lg-flex"></i></li>
+                                <li><i class="fa-solid fa-circle-question d-none d-lg-flex"></i></li>
+                                <li><i class="fa-solid fa-ellipsis-vertical d-none d-lg-flex"></i></li>
+                                <li><i class="fa-solid fa-bell" style="color: #ff8f00;"></i></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </header>
-
-        <main>
-
-        </main>
-
-        <footer>
-            
-        </footer>
+            </header>
+    
+            <main>
+                <div class="container">
+                    <div class="row d-flex">
+                        <div class="col-2 sidebar">
+                            <div class="row h-100 d-flex flex-column justify-content-between">
+                                <div class="col-12 py-3 sidebar-top d-flex justify-content-center">
+                                    <ul class="flex-ul d-flex flex-column gap-2">
+                                        <li><i class="fa-solid fa-house"></i> <span class="d-none d-lg-inline">Ciao</span> </li>
+                                        <li><i class="fa-solid fa-chart-simple"></i> <span class="d-none d-lg-inline">Ciao</span> </li>
+                                        <li><i class="fa-solid fa-signal"></i> <span class="d-none d-lg-inline">Ciao</span> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 py-3 py-lg-5 sidebar-bottom d-flex justify-content-center">
+                                    <p><i class="fa-solid fa-gear"></i> <span class="d-none d-lg-inline">Ciao</span> </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-10 main-content overflow-y"></div>
+                    </div>
+                </div>
+            </main>
+    
+            <footer>
+                
+            </footer>
+        </div>
     </body>
 </html>
