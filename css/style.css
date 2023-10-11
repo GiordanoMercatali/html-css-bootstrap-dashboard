@@ -30,10 +30,10 @@ header{
     height: 10vh;
 }
 
-header img{
+/* header img{
     width: 4rem;
     height: 4rem;
-}
+} */
 
 /* UNORDERED LIST */
 .flex-ul{
@@ -57,12 +57,17 @@ main{
 
 .sidebar-top{
     background-color: var(--sb-color-1);
-    width: 100%;
+    /* width: 100%; */
+}
+
+.sidebar-top a,
+.sidebar-bottom a{
+    color: white;
+    text-decoration: none;
 }
 
 /* MAIN CONTENT */
 .main-content{
     background-color: var(--top-color);
     height: 90vh;
-    border: var(--border);
 }
