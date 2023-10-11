@@ -3,6 +3,7 @@
     --sb-color-1: #051e34;
     --sb-color-2: #0d253a;
     --top-color: #1b72e8;
+    --box-color: #124ea3;
     --border: 1px solid black;
 }
 
@@ -73,6 +74,37 @@ main{
 
 /* MAIN CONTENT */
 .main-content{
-    background-color: var(--top-color);
     height: 90vh;
+    padding: 0;
 }
+
+.main-content header{
+    background-color: var(--top-color);
+    height: 30vh;
+    color: white;
+}
+
+.main-content .rounded-pill{
+    max-width: 8rem;
+    line-height: 0.5rem;
+    border-color: var(--box-color);
+    background-color: var(--box-color);
+}
+
+.main-content button{
+    border-color: white;
+    color: white;
+}
+
+@media screen and (min-width: 768px){
+    .main-content header{
+        height: 14vh;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .main-content .rounded-pill{
+        font-size: 11px;
+    }
+}
+
