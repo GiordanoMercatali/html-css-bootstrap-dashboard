@@ -109,7 +109,7 @@ main{
     background-color: var(--box-color);
 }
 
-.main-content button{
+.main-content header button{
     border-color: white;
     color: white;
 }
@@ -135,19 +135,51 @@ main{
 /* MAIN SECTION */
 .main-section{
     width: 100%;
-    height: 100%;
+    height: calc(100vh - (240px + 90px));
     overflow-y: auto;
 }
 
 /* MAIN CARDS */
 .card{
     border: var(--border);
+    
 }
 
 .card-top{
     background-color: lightgray;
 }
 
+/* NEXT CLASSES SECTION */
+.main-section button{
+    border: gray 1px solid;
+    color: gray;
+}
+
+.class-link{
+    background-color: orangered;
+    border-color: orangered;
+    color: white;
+}
+
+.done{
+    background-color: green;
+    border-color: green;
+    color: white;
+}
+
+.failed{
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+.process{
+    background-color: yellow;
+    border-color: yellow;
+    color: white;
+}
+
+/* FAQ CARD */
 /* DROP DOWN MENU */
 .drop-down{
     border-bottom: 1px solid lightgray;
@@ -167,4 +199,3 @@ main{
     line-height: 2rem;
     opacity: 100;
 }
-
