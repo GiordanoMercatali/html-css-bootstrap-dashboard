@@ -148,6 +148,12 @@ main{
     background-color: lightgray;
 }
 
+/* DROP DOWN MENU */
+.drop-down{
+    border-bottom: 1px solid lightgray;
+}
+
+
 .drop-down:hover .fa-angle-down{
     transform: rotate(180deg);
 }
