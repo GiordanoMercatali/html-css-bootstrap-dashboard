@@ -95,9 +95,10 @@ main{
     padding: 0;
 }
 
+/* MAIN HEADER */
 .main-content header{
     background-color: var(--top-color);
-    height: 28vh;
+    height: 240px;
     color: white;
 }
 
@@ -115,14 +116,13 @@ main{
 
 @media screen and (min-width: 768px){
     .main-content header{
-        height: 14vh;
+        height: 120px;
     }
 }
 
 @media screen and (min-width: 992px) {
     .main-content .rounded-pill{
-        font-size: 11px;
-        overflow-y: auto;
+        font-size: 12px;
     }
 
     .fa-angles-right{
@@ -130,5 +130,35 @@ main{
         bottom: 5px;
         left: 0;
     }
+}
+
+/* MAIN SECTION */
+.main-section{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+/* MAIN CARDS */
+.card{
+    border: var(--border);
+}
+
+.card-top{
+    background-color: lightgray;
+}
+
+.drop-down:hover .fa-angle-down{
+    transform: rotate(180deg);
+}
+
+.drop-down p.hidden-text{
+    line-height: 0;
+    opacity: 0;
+}
+
+.drop-down:hover p.hidden-text{
+    line-height: 2rem;
+    opacity: 100;
 }
 
