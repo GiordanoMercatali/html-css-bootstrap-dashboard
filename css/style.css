@@ -192,16 +192,6 @@ main{
 }
 
 
-.drop-down:hover .fa-angle-down{
+.drop-down:active .fa-angle-down{
     transform: rotate(180deg);
-}
-
-.drop-down p.hidden-text{
-    line-height: 0;
-    opacity: 0;
-}
-
-.drop-down:hover p.hidden-text{
-    line-height: 2rem;
-    opacity: 100;
 }
