@@ -52,6 +52,10 @@ header .logo-full{
     max-width: 100%;
 }
 
+header .form-control{
+    background-color: lightgray;
+}
+
 /* UNORDERED LIST */
 .flex-ul{
     list-style-type: none;
@@ -98,7 +102,7 @@ main{
 /* MAIN HEADER */
 .main-content header{
     background-color: var(--top-color);
-    height: 240px;
+    height: 250px;
     color: white;
 }
 
@@ -116,7 +120,7 @@ main{
 
 @media screen and (min-width: 768px){
     .main-content header{
-        height: 120px;
+        height: 125px;
     }
 }
 
@@ -132,16 +136,32 @@ main{
     }
 }
 
+/* POP UP FORM */
+#pop-up-form{
+    background-color: white;
+    border: var(--border);
+    width: 60vw;
+    height: 100vh;
+    z-index: 9999;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* #pop-up-form .form-group .d-flex{
+    background-color: lightgray;
+} */
+
 /* MAIN SECTION */
 .main-section{
     width: 100%;
-    height: calc(100vh - (240px + 90px));
+    height: calc(100vh - (250px + 90px));
     overflow-y: auto;
 }
 
 @media screen and (min-width: 768px){
     .main-section{
-        height: calc(100vh - (120px + 90px));
+        height: calc(100vh - (125px + 90px));
     }
 }
 
